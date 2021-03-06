@@ -6,7 +6,7 @@
 
 Hey, welcome to our organization!
 
-This tutorial will bring you up to speed on out workflow. 
+This tutorial will bring you up to speed on our workflow. 
 The only thing this tutorial assumes is that your system is fully up-to-date
 
 ## Joining the organization
