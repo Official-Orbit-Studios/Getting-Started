@@ -44,3 +44,11 @@ Then, go to settings in GitHub, and go to "SSH and GPG keys".
 Create a new SSH key, and title it the name of your computer.
 Then, paste the key you created earlier into where it says key.
 Finally, save the key.
+
+## Short Git tutorial (Skip if you know)
+
+We've now set up Git.
+Now, we can clone repositories and help contribute.
+To show you how, we've initialized a repository which you can clone and commit to.
+Start by entering the folder where you keep all your projects.
+Then, if you've [set up SSH keys](), run
