@@ -60,3 +60,5 @@ Once you've done that, add your changes to the local Git repository by running `
 Then, run `git commit -m "Message"`, with your commit message where it says message.
 Once you've updated the list, you can push it back to GitHub by running `git push origin main`.
 In case you need to update the repository with all the latest changes, you can run `git pull origin main`, to download all the latest changes for when you work on it.
+
+That's it, you've learnt the basics of our Git/GitHub-based workflow!
