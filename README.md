@@ -1,5 +1,46 @@
 # Getting Started here at Orbit
 
-![Alt Text](https://cdn.discordapp.com/icons/725472423511719938/a0635bd59280dac4ce4dd4e64aebd379.webp?size=128)
+![Orbit Studios Logo](https://cdn.discordapp.com/icons/725472423511719938/a0635bd59280dac4ce4dd4e64aebd379.webp?size=128)
 
 ## Welcome to Orbit Studios!
+
+Hey, welcome to our organization!
+
+This tutorial will bring you up to speed on out workflow. 
+The only thing this tutorial assumes is that your system is fully up-to-date
+
+## Joining the organization
+
+The first thing you will need to do is join the organization on GitHub. 
+To do that we need your GitHub username so we can invite you. 
+If we already have your GitHub username, chances are we've sent you an invite, which you can redeem from your email or at [our organization' profile page](https://github.com/Official-Orbit-Studios/)
+
+## Setting up Git
+
+Once you've joined the organization, it's now time to set up git!
+Git is how we control our code. 
+Linux users, you may find it in the package manager or preinstalled depending on your distribution. 
+MacOS  users, you should have a copy of git on your system, although if you want a more up-to-date version, you can use [this tutorial](https://www.makeuseof.com/how-to-install-git-mac/). 
+Windows users can download the executable installer from [their webpage](https://git-scm.com/). 
+Leave all parameters to default. 
+Once installed, git should be usable through the command line or terminal.
+Set up your username by running `git config --global user.name "Your Name"` and set up your password by running `git config --global user.email "youremail@yourdomain.com"`
+That's it, you're finished setting up Git
+
+## Setting up SSH Keys for Git and GitHub (Recommended, but optional)
+
+Now that you've set up Git, it's time to set up your SSH keys. These keys will make using Git a whole lot easier. 
+First, start by generating an SSH key. 
+These keys are specific to the machine your run them on, and you only need one per machine. 
+On Linux and MacOS run `cd .ssh` to enter the .ssh directory. 
+Then, run `ssh-keygen -t rsa` and hit enter to skip entering a passphrase.
+On Windows, open the PowerShell as admin, and run `Add-WindowsCapability -Online -Name OpenSSH.Client~~~~0.0.1.0`
+Then, run `ssh-keygen`, and hit enter to skip entering a passphrase.
+then, do `cd .ssh`
+This will generate a file called "id_rsa.pub"
+You can view the contents of this file by running `cat id_rsa.pub` on Linux or MacOS, or by running `type id_rsa.pub` on Windows.
+Copy the contents of the file, which should start with "ssh-rsa"
+Then, go to settings in GitHub, and go to "SSH and GPG keys".
+Create a new SSH key, and title it the name of your computer.
+Then, paste the key you created earlier into where it says key.
+Finally, save the key.
