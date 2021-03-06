@@ -47,8 +47,16 @@ Finally, save the key.
 
 ## Short Git tutorial (Skip if you know)
 
+Note: This section requires you to have joined the organization.
+
 We've now set up Git.
 Now, we can clone repositories and help contribute.
 To show you how, we've initialized a repository which you can clone and commit to.
 Start by entering the folder where you keep all your projects.
-Then, if you've [set up SSH keys](), run
+Then, if you have [set up SSH keys](https://github.com/Official-Orbit-Studios/Getting-Started/blob/main/README.md#setting-up-ssh-keys-for-git-and-github-recommended-but-optional), run `git clone git@github.com:Official-Orbit-Studios/TestRepo.git`.
+If you haven't set up SSH keys, run `git clone https://github.com/Official-Orbit-Studios/TestRepo.git`.
+Run `cd` to enter into the new folder, and using your favorite editor, add your Discord username to the list of employees.
+Once you've done that, add your changes to the local Git repository by running `git add -A`
+Then, run `git commit -m "Message"`, with your commit message where it says message.
+Once you've updated the list, you can push it back to GitHub by running `git push origin main`.
+In case you need to update the repository with all the latest changes, you can run `git pull origin main`, to download all the latest changes for when you work on it.
