@@ -62,3 +62,24 @@ Once you've updated the list, you can push it back to GitHub by running `git pus
 In case you need to update the repository with all the latest changes, you can run `git pull origin main`, to download all the latest changes for when you work on it.
 
 That's it, you've learnt the basics of our Git/GitHub-based workflow!
+Now, here's a short run down of what to do each day.
+
+## Run Down
+
+### First time
+
+1. Run `git clone (ssh key or https url here)` to clone the repository locally
+2. Edit the code
+3. Run `git add -A` to add all your changes to be committed
+4. Run `git commit -m "Message goes here"` to commit your changes locally
+5. Run `git push origin main` to push all your changes to GitHub
+
+And that's all there is to it! The workflow for once you've gotten started is pretty similar to that.
+
+### Daily
+
+1. Run `git pull origin main` to bring your local repository up to date with the one on GitHub
+2. Edit the code
+3. Run `git add -A` to add your changes to be committed
+4. Run `git commit -m "Message goes here"` to commit your changes locally
+5. Run `git push origin main` to push all your commits to GitHub
