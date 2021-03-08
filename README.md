@@ -83,3 +83,9 @@ And that's all there is to it! The workflow for once you've gotten started is pr
 3. Run `git add -A` to add your changes to be committed
 4. Run `git commit -m "Message goes here"` to commit your changes locally
 5. Run `git push origin main` to push all your commits to GitHub
+
+## Checklist
+
+- [x] Download and install (VSCode)[https://code.visualstudio.com] along with the [Live Share Extension](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
+- [x] Join the organization on GitHub
+- [x] Download and set up Git
