@@ -86,6 +86,6 @@ And that's all there is to it! The workflow for once you've gotten started is pr
 
 ## Checklist
 
-- [] Download and install (VSCode)[https://code.visualstudio.com] along with the [Live Share Extension](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
-- [] Join the organization on GitHub
-- [] Download and set up Git
+- [ ] Download and install (VSCode)[https://code.visualstudio.com] along with the [Live Share Extension](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
+- [ ] Join the organization on GitHub
+- [ ] Download and set up Git
