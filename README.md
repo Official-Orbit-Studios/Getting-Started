@@ -84,8 +84,3 @@ And that's all there is to it! The workflow for once you've gotten started is pr
 4. Run `git commit -m "Message goes here"` to commit your changes locally
 5. Run `git push origin main` to push all your commits to GitHub
 
-## Checklist
-
-- [ ] Download and install [VSCode](https://code.visualstudio.com) along with the [Live Share Extension](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
-- [ ] Join the organization on GitHub
-- [ ] Download and set up Git
