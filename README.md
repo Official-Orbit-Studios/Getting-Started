@@ -17,7 +17,7 @@ If we already have your GitHub username, chances are we've sent you an invite, w
 
 ## Setting up Git
 
-Once you've joined the organization, it's now time to set up git!
+Once you've joined the organization, it's now time to set up Git!
 Git is how we control our code. 
 Linux users, you may find it in the package manager or preinstalled depending on your distribution. 
 MacOS  users, you should have a copy of git on your system, although if you want a more up-to-date version, you can use [this tutorial](https://www.makeuseof.com/how-to-install-git-mac/). 
@@ -33,7 +33,7 @@ Now that you've set up Git, it's time to set up your SSH keys. These keys will m
 First, start by generating an SSH key. 
 These keys are specific to the machine your run them on, and you only need one per machine. 
 On Linux and MacOS run `cd .ssh` to enter the .ssh directory. 
-Then, run `ssh-keygen -t rsa` and hit enter to skip entering a passphrase.
+Then, run `ssh-keygen` and hit enter to skip entering a passphrase.
 On Windows, open the PowerShell as admin, and run `Add-WindowsCapability -Online -Name OpenSSH.Client~~~~0.0.1.0`
 Then, run `ssh-keygen`, and hit enter to skip entering a passphrase.
 then, do `cd .ssh`
@@ -61,6 +61,10 @@ Then, run `git commit -m "Message"`, with your commit message where it says mess
 Once you've updated the list, you can push it back to GitHub by running `git push origin main`.
 In case you need to update the repository with all the latest changes, you can run `git pull origin main`, to download all the latest changes for when you work on it.
 
+## Setting up Visual Studio Code
+
+Now it's time to set up your IDE. We use Microsoft's well made, lightweight, and open source Visual Studio Code as our IDE of choice. To get started, go to [their website](code.visualstudio.com) and download the appropriate file for your OS (So .dmg for Mac or .deb or .rpm for Linux). Once that's done, install the [VS Live Share Extension](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) to allow for real-time collaboration between devs. Once that's done, you can install extensions for languages on an as-needed basis.
+
 That's it, you've learnt the basics of our Git/GitHub-based workflow!
 Now, here's a short run down of what to do each day.
 
@@ -72,7 +76,7 @@ Now, here's a short run down of what to do each day.
 2. Edit the code
 3. Run `git add -A` to add all your changes to be committed
 4. Run `git commit -m "Message goes here"` to commit your changes locally
-5. Run `git push origin main` to push all your changes to GitHub
+5. Run `git push origin main` to push all your changes to the main branch on GitHub
 
 And that's all there is to it! The workflow for once you've gotten started is pretty similar to that.
 
@@ -82,5 +86,5 @@ And that's all there is to it! The workflow for once you've gotten started is pr
 2. Edit the code
 3. Run `git add -A` to add your changes to be committed
 4. Run `git commit -m "Message goes here"` to commit your changes locally
-5. Run `git push origin main` to push all your commits to GitHub
+5. Run `git push origin main` to push all your commits to the main branch on GitHub
 
