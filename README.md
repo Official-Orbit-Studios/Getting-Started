@@ -63,7 +63,7 @@ In case you need to update the repository with all the latest changes, you can r
 
 ## Setting up Visual Studio Code
 
-Now it's time to set up your IDE. We use Microsoft's well made, lightweight, and open source Visual Studio Code as our IDE of choice. To get started, go to [their website](code.visualstudio.com) and download the appropriate file for your OS (So .dmg for Mac or .deb or .rpm for Linux). Once that's done, install the [VS Live Share Extension](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) to allow for real-time collaboration between devs. Once that's done, you can install extensions for languages on an as-needed basis.
+Now it's time to set up your IDE. We use Microsoft's well made, lightweight, and open source Visual Studio Code as our IDE of choice. To get started, go to [their website](https://code.visualstudio.com) and download the appropriate file for your OS (So .dmg for Mac, .deb or .rpm for Linux, or .exe for Windows). Once that's done, install the [VS Live Share Extension](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) to allow for real-time collaboration between devs. Once that's done, you can install extensions for languages on an as-needed basis.
 
 That's it, you've learnt the basics of our Git/GitHub-based workflow!
 Now, here's a short run down of what to do each day.
